@@ -1,0 +1,171 @@
+[14:53:57.541] Global cache location '/home/ali/.cache/typescript/4.7', safe file path '/usr/lib/node_modules/typescript/lib/typingSafeList.json', types map path /usr/lib/node_modules/typescript/lib/typesMap.json
+[14:53:57.542] Processing cache location '/home/ali/.cache/typescript/4.7'
+[14:53:57.543] Trying to find '/home/ali/.cache/typescript/4.7/package.json'...
+[14:53:57.549] Loaded content of '/home/ali/.cache/typescript/4.7/package.json': {"private":true,"dependencies":{"types-registry":"^0.1.605"},"devDependencies":{"@types/alpinejs":"^3.7.0","@types/app-root-path":"^1.2.4","@types/basic-auth":"^1.1.3","@types/bcrypt":"^5.0.0","@types/body-parser":"^1.19.2","@types/bootstrap":"^5.2.1","@types/braces":"^3.0.1","@types/busboy":"^1.5.0","@types/bytes":"^3.1.1","@types/camelcase-css":"^2.0.0","@types/caniuse-lite":"^1.0.1","@types/color":"^3.0.3","@types/color-name":"^1.1.1","@types/concat-stream":"^2.0.0","@types/content-type":"^1.1.5","@types/cookie":"^0.5.1","@types/cookie-parser":"^1.4.3","@types/cookie-signature":"^1.0.4","@types/cors":"^2.8.12","@types/cssesc":"^3.0.0","@types/debug":"^4.1.7","@types/defined":"^1.0.0","@types/depd":"^1.1.32","@types/detective":"^5.1.3","@types/didyoumean":"^1.2.0","@types/dlv":"^1.1.2","@types/ee-first":"^1.1.0","@types/express":"^4.17.13","@types/express-session":"^1.17.5","@types/fill-range":"^7.0.0","@types/function-bind":"^1.1.7","@types/glob-parent":"^5.1.1","@types/got":"^9.6.12","@types/has":"^1.0.0","@types/http-errors":"^1.8.2","@types/is-core-module":"^2.2.0","@types/is-glob":"^4.0.2","@types/is-number":"^7.0.3","@types/jquery":"^3.5.14","@types/jsonwebtoken":"^8.5.8","@types/lodash":"^4.14.182","@types/lodash.castarray":"^4.4.7","@types/lodash.merge":"^4.6.7","@types/merge-descriptors":"^1.0.1","@types/merge2":"^1.3.1","@types/method-override":"^0.0.32","@types/methods":"^1.1.1","@types/micromatch":"^4.0.2","@types/minimist":"^1.2.2","@types/mkdirp":"^1.0.2","@types/morgan":"^1.9.3","@types/multer":"^1.4.7","@types/nodemon":"^1.19.2","@types/nopt":"^3.0.29","@types/normalize-path":"^3.0.0","@types/npmlog":"^4.1.4","@types/nprogress":"^0.2.0","@types/object-assign":"^4.0.30","@types/object-hash":"^2.2.1","@types/on-finished":"^2.3.1","@types/on-headers":"^1.0.0","@types/parseurl":"^1.3.1","@types/passport":"^1.0.9","@types/passport-local":"^1.0.34","@types/passport-strategy":"^0.2.35","@types/path-parse":"^1.0.19","@types/pause":"^0.1.0","@types/picomatch":"^2.3.0","@types/pify":"^5.0.1","@types/postcss-import":"^14.0.0","@types/postcss-js":"^4.0.0","@types/pug":"^2.0.6","@types/qs":"^6.9.7","@types/random-bytes":"^1.0.1","@types/react":"^18.0.17","@types/react-transition-group":"^4.4.5","@types/resolve":"^1.20.2","@types/run-parallel":"^1.1.0","@types/sass":"^1.43.1","@types/sequelize":"^4.28.14","@types/serve-static":"^1.13.10","@types/sharp":"^0.30.4","@types/sqlite3":"^3.1.8","@types/to-regex-range":"^5.0.0","@types/type-is":"^1.6.3","@types/uid-safe":"^2.1.2","@types/util-deprecate":"^1.0.0","@types/uuid":"^8.3.4","@types/vary":"^1.1.0","@types/xtend":"^4.0.4","@types/yup":"^0.29.14"}}
+[14:53:57.549] Loaded content of '/home/ali/.cache/typescript/4.7/package-lock.json'
+[14:53:57.577] Adding entry into typings cache: 'alpinejs' => '/home/ali/.cache/typescript/4.7/node_modules/@types/alpinejs/index.d.ts'
+[14:53:57.582] Adding entry into typings cache: 'app-root-path' => '/home/ali/.cache/typescript/4.7/node_modules/@types/app-root-path/index.d.ts'
+[14:53:57.586] Adding entry into typings cache: 'basic-auth' => '/home/ali/.cache/typescript/4.7/node_modules/@types/basic-auth/index.d.ts'
+[14:53:57.589] Adding entry into typings cache: 'bcrypt' => '/home/ali/.cache/typescript/4.7/node_modules/@types/bcrypt/index.d.ts'
+[14:53:57.593] Adding entry into typings cache: 'body-parser' => '/home/ali/.cache/typescript/4.7/node_modules/@types/body-parser/index.d.ts'
+[14:53:57.597] Adding entry into typings cache: 'bootstrap' => '/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts'
+[14:53:57.600] Adding entry into typings cache: 'braces' => '/home/ali/.cache/typescript/4.7/node_modules/@types/braces/index.d.ts'
+[14:53:57.603] Adding entry into typings cache: 'busboy' => '/home/ali/.cache/typescript/4.7/node_modules/@types/busboy/index.d.ts'
+[14:53:57.607] Adding entry into typings cache: 'bytes' => '/home/ali/.cache/typescript/4.7/node_modules/@types/bytes/index.d.ts'
+[14:53:57.611] Adding entry into typings cache: 'camelcase-css' => '/home/ali/.cache/typescript/4.7/node_modules/@types/camelcase-css/index.d.ts'
+[14:53:57.615] Adding entry into typings cache: 'caniuse-lite' => '/home/ali/.cache/typescript/4.7/node_modules/@types/caniuse-lite/index.d.ts'
+[14:53:57.619] Adding entry into typings cache: 'color' => '/home/ali/.cache/typescript/4.7/node_modules/@types/color/index.d.ts'
+[14:53:57.622] Adding entry into typings cache: 'color-name' => '/home/ali/.cache/typescript/4.7/node_modules/@types/color-name/index.d.ts'
+[14:53:57.625] Adding entry into typings cache: 'concat-stream' => '/home/ali/.cache/typescript/4.7/node_modules/@types/concat-stream/index.d.ts'
+[14:53:57.627] Adding entry into typings cache: 'content-type' => '/home/ali/.cache/typescript/4.7/node_modules/@types/content-type/index.d.ts'
+[14:53:57.630] Adding entry into typings cache: 'cookie' => '/home/ali/.cache/typescript/4.7/node_modules/@types/cookie/index.d.ts'
+[14:53:57.633] Adding entry into typings cache: 'cookie-parser' => '/home/ali/.cache/typescript/4.7/node_modules/@types/cookie-parser/index.d.ts'
+[14:53:57.635] Adding entry into typings cache: 'cookie-signature' => '/home/ali/.cache/typescript/4.7/node_modules/@types/cookie-signature/index.d.ts'
+[14:53:57.638] Adding entry into typings cache: 'cors' => '/home/ali/.cache/typescript/4.7/node_modules/@types/cors/index.d.ts'
+[14:53:57.641] Adding entry into typings cache: 'cssesc' => '/home/ali/.cache/typescript/4.7/node_modules/@types/cssesc/index.d.ts'
+[14:53:57.644] Adding entry into typings cache: 'debug' => '/home/ali/.cache/typescript/4.7/node_modules/@types/debug/index.d.ts'
+[14:53:57.648] Adding entry into typings cache: 'defined' => '/home/ali/.cache/typescript/4.7/node_modules/@types/defined/index.d.ts'
+[14:53:57.652] Adding entry into typings cache: 'depd' => '/home/ali/.cache/typescript/4.7/node_modules/@types/depd/index.d.ts'
+[14:53:57.653] Adding entry into typings cache: 'detective' => '/home/ali/.cache/typescript/4.7/node_modules/@types/detective/index.d.ts'
+[14:53:57.655] Adding entry into typings cache: 'didyoumean' => '/home/ali/.cache/typescript/4.7/node_modules/@types/didyoumean/index.d.ts'
+[14:53:57.657] Adding entry into typings cache: 'dlv' => '/home/ali/.cache/typescript/4.7/node_modules/@types/dlv/index.d.ts'
+[14:53:57.659] Adding entry into typings cache: 'ee-first' => '/home/ali/.cache/typescript/4.7/node_modules/@types/ee-first/index.d.ts'
+[14:53:57.663] Adding entry into typings cache: 'express' => '/home/ali/.cache/typescript/4.7/node_modules/@types/express/index.d.ts'
+[14:53:57.666] Adding entry into typings cache: 'express-session' => '/home/ali/.cache/typescript/4.7/node_modules/@types/express-session/index.d.ts'
+[14:53:57.668] Adding entry into typings cache: 'fill-range' => '/home/ali/.cache/typescript/4.7/node_modules/@types/fill-range/index.d.ts'
+[14:53:57.671] Adding entry into typings cache: 'function-bind' => '/home/ali/.cache/typescript/4.7/node_modules/@types/function-bind/index.d.ts'
+[14:53:57.674] Adding entry into typings cache: 'glob-parent' => '/home/ali/.cache/typescript/4.7/node_modules/@types/glob-parent/index.d.ts'
+[14:53:57.677] Adding entry into typings cache: 'got' => '/home/ali/.cache/typescript/4.7/node_modules/@types/got/index.d.ts'
+[14:53:57.679] Adding entry into typings cache: 'has' => '/home/ali/.cache/typescript/4.7/node_modules/@types/has/index.d.ts'
+[14:53:57.682] Adding entry into typings cache: 'http-errors' => '/home/ali/.cache/typescript/4.7/node_modules/@types/http-errors/index.d.ts'
+[14:53:57.684] Adding entry into typings cache: 'is-core-module' => '/home/ali/.cache/typescript/4.7/node_modules/@types/is-core-module/index.d.ts'
+[14:53:57.686] Adding entry into typings cache: 'is-glob' => '/home/ali/.cache/typescript/4.7/node_modules/@types/is-glob/index.d.ts'
+[14:53:57.687] Adding entry into typings cache: 'is-number' => '/home/ali/.cache/typescript/4.7/node_modules/@types/is-number/index.d.ts'
+[14:53:57.691] Adding entry into typings cache: 'jquery' => '/home/ali/.cache/typescript/4.7/node_modules/@types/jquery/index.d.ts'
+[14:53:57.694] Adding entry into typings cache: 'jsonwebtoken' => '/home/ali/.cache/typescript/4.7/node_modules/@types/jsonwebtoken/index.d.ts'
+[14:53:57.696] Adding entry into typings cache: 'lodash' => '/home/ali/.cache/typescript/4.7/node_modules/@types/lodash/index.d.ts'
+[14:53:57.701] Adding entry into typings cache: 'lodash.castarray' => '/home/ali/.cache/typescript/4.7/node_modules/@types/lodash.castarray/index.d.ts'
+[14:53:57.704] Adding entry into typings cache: 'lodash.merge' => '/home/ali/.cache/typescript/4.7/node_modules/@types/lodash.merge/index.d.ts'
+[14:53:57.706] Adding entry into typings cache: 'merge-descriptors' => '/home/ali/.cache/typescript/4.7/node_modules/@types/merge-descriptors/index.d.ts'
+[14:53:57.711] Adding entry into typings cache: 'merge2' => '/home/ali/.cache/typescript/4.7/node_modules/@types/merge2/index.d.ts'
+[14:53:57.715] Adding entry into typings cache: 'method-override' => '/home/ali/.cache/typescript/4.7/node_modules/@types/method-override/index.d.ts'
+[14:53:57.719] Adding entry into typings cache: 'methods' => '/home/ali/.cache/typescript/4.7/node_modules/@types/methods/index.d.ts'
+[14:53:57.725] Adding entry into typings cache: 'micromatch' => '/home/ali/.cache/typescript/4.7/node_modules/@types/micromatch/index.d.ts'
+[14:53:57.727] Adding entry into typings cache: 'minimist' => '/home/ali/.cache/typescript/4.7/node_modules/@types/minimist/index.d.ts'
+[14:53:57.729] Adding entry into typings cache: 'mkdirp' => '/home/ali/.cache/typescript/4.7/node_modules/@types/mkdirp/index.d.ts'
+[14:53:57.732] Adding entry into typings cache: 'morgan' => '/home/ali/.cache/typescript/4.7/node_modules/@types/morgan/index.d.ts'
+[14:53:57.735] Adding entry into typings cache: 'multer' => '/home/ali/.cache/typescript/4.7/node_modules/@types/multer/index.d.ts'
+[14:53:57.742] Adding entry into typings cache: 'nodemon' => '/home/ali/.cache/typescript/4.7/node_modules/@types/nodemon/index.d.ts'
+[14:53:57.745] Adding entry into typings cache: 'nopt' => '/home/ali/.cache/typescript/4.7/node_modules/@types/nopt/index.d.ts'
+[14:53:57.747] Adding entry into typings cache: 'normalize-path' => '/home/ali/.cache/typescript/4.7/node_modules/@types/normalize-path/index.d.ts'
+[14:53:57.749] Adding entry into typings cache: 'npmlog' => '/home/ali/.cache/typescript/4.7/node_modules/@types/npmlog/index.d.ts'
+[14:53:57.750] Adding entry into typings cache: 'nprogress' => '/home/ali/.cache/typescript/4.7/node_modules/@types/nprogress/index.d.ts'
+[14:53:57.752] Adding entry into typings cache: 'object-assign' => '/home/ali/.cache/typescript/4.7/node_modules/@types/object-assign/index.d.ts'
+[14:53:57.754] Adding entry into typings cache: 'object-hash' => '/home/ali/.cache/typescript/4.7/node_modules/@types/object-hash/index.d.ts'
+[14:53:57.756] Adding entry into typings cache: 'on-finished' => '/home/ali/.cache/typescript/4.7/node_modules/@types/on-finished/index.d.ts'
+[14:53:57.758] Adding entry into typings cache: 'on-headers' => '/home/ali/.cache/typescript/4.7/node_modules/@types/on-headers/index.d.ts'
+[14:53:57.760] Adding entry into typings cache: 'parseurl' => '/home/ali/.cache/typescript/4.7/node_modules/@types/parseurl/index.d.ts'
+[14:53:57.762] Adding entry into typings cache: 'passport' => '/home/ali/.cache/typescript/4.7/node_modules/@types/passport/index.d.ts'
+[14:53:57.764] Adding entry into typings cache: 'passport-local' => '/home/ali/.cache/typescript/4.7/node_modules/@types/passport-local/index.d.ts'
+[14:53:57.765] Adding entry into typings cache: 'passport-strategy' => '/home/ali/.cache/typescript/4.7/node_modules/@types/passport-strategy/index.d.ts'
+[14:53:57.767] Adding entry into typings cache: 'path-parse' => '/home/ali/.cache/typescript/4.7/node_modules/@types/path-parse/index.d.ts'
+[14:53:57.768] Adding entry into typings cache: 'pause' => '/home/ali/.cache/typescript/4.7/node_modules/@types/pause/index.d.ts'
+[14:53:57.770] Adding entry into typings cache: 'picomatch' => '/home/ali/.cache/typescript/4.7/node_modules/@types/picomatch/index.d.ts'
+[14:53:57.772] Adding entry into typings cache: 'pify' => '/home/ali/.cache/typescript/4.7/node_modules/@types/pify/index.d.ts'
+[14:53:57.773] Adding entry into typings cache: 'postcss-import' => '/home/ali/.cache/typescript/4.7/node_modules/@types/postcss-import/index.d.ts'
+[14:53:57.775] Adding entry into typings cache: 'postcss-js' => '/home/ali/.cache/typescript/4.7/node_modules/@types/postcss-js/index.d.ts'
+[14:53:57.776] Adding entry into typings cache: 'pug' => '/home/ali/.cache/typescript/4.7/node_modules/@types/pug/index.d.ts'
+[14:53:57.778] Adding entry into typings cache: 'qs' => '/home/ali/.cache/typescript/4.7/node_modules/@types/qs/index.d.ts'
+[14:53:57.779] Adding entry into typings cache: 'random-bytes' => '/home/ali/.cache/typescript/4.7/node_modules/@types/random-bytes/index.d.ts'
+[14:53:57.784] Adding entry into typings cache: 'react' => '/home/ali/.cache/typescript/4.7/node_modules/@types/react/index.d.ts'
+[14:53:57.788] Adding entry into typings cache: 'react-transition-group' => '/home/ali/.cache/typescript/4.7/node_modules/@types/react-transition-group/index.d.ts'
+[14:53:57.790] Adding entry into typings cache: 'resolve' => '/home/ali/.cache/typescript/4.7/node_modules/@types/resolve/index.d.ts'
+[14:53:57.791] Adding entry into typings cache: 'run-parallel' => '/home/ali/.cache/typescript/4.7/node_modules/@types/run-parallel/index.d.ts'
+[14:53:57.793] Adding entry into typings cache: 'sass' => '/home/ali/.cache/typescript/4.7/node_modules/@types/sass/index.d.ts'
+[14:53:57.795] Adding entry into typings cache: 'sequelize' => '/home/ali/.cache/typescript/4.7/node_modules/@types/sequelize/index.d.ts'
+[14:53:57.797] Adding entry into typings cache: 'serve-static' => '/home/ali/.cache/typescript/4.7/node_modules/@types/serve-static/index.d.ts'
+[14:53:57.799] Adding entry into typings cache: 'sharp' => '/home/ali/.cache/typescript/4.7/node_modules/@types/sharp/index.d.ts'
+[14:53:57.801] Adding entry into typings cache: 'sqlite3' => '/home/ali/.cache/typescript/4.7/node_modules/@types/sqlite3/index.d.ts'
+[14:53:57.802] Adding entry into typings cache: 'to-regex-range' => '/home/ali/.cache/typescript/4.7/node_modules/@types/to-regex-range/index.d.ts'
+[14:53:57.803] Adding entry into typings cache: 'type-is' => '/home/ali/.cache/typescript/4.7/node_modules/@types/type-is/index.d.ts'
+[14:53:57.805] Adding entry into typings cache: 'uid-safe' => '/home/ali/.cache/typescript/4.7/node_modules/@types/uid-safe/index.d.ts'
+[14:53:57.806] Adding entry into typings cache: 'util-deprecate' => '/home/ali/.cache/typescript/4.7/node_modules/@types/util-deprecate/index.d.ts'
+[14:53:57.808] Adding entry into typings cache: 'uuid' => '/home/ali/.cache/typescript/4.7/node_modules/@types/uuid/index.d.ts'
+[14:53:57.810] Adding entry into typings cache: 'vary' => '/home/ali/.cache/typescript/4.7/node_modules/@types/vary/index.d.ts'
+[14:53:57.811] Adding entry into typings cache: 'xtend' => '/home/ali/.cache/typescript/4.7/node_modules/@types/xtend/index.d.ts'
+[14:53:57.813] Adding entry into typings cache: 'yup' => '/home/ali/.cache/typescript/4.7/node_modules/@types/yup/index.d.ts'
+[14:53:57.813] Finished processing cache location '/home/ali/.cache/typescript/4.7'
+[14:53:57.814] Process id: 337544
+[14:53:57.814] NPM location: /usr/bin/npm (explicit '--npmLocation' not  provided)
+[14:53:57.814] validateDefaultNpmLocation: false
+[14:53:57.815] Npm config file: /home/ali/.cache/typescript/4.7/package.json
+[14:53:57.815] Updating types-registry npm package...
+[14:53:57.815] Exec: /usr/bin/npm install --ignore-scripts types-registry@latest
+[14:54:00.225]     Succeeded. stdout:
+    
+    up to date, audited 122 packages in 2s
+
+2 packages are looking for funding
+  run `npm fund` for details
+
+found 0 vulnerabilities
+
+[14:54:00.225] Updated types-registry npm package
+[14:54:00.309] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/ali/Projects/LARAVEL/shop/resources/js/bootstrap.js","/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/grid.js","/home/ali/Projects/LARAVEL/shop/resources/js/admin.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/ali/Projects/LARAVEL/shop/resources/js","kind":"discover"}
+[14:54:00.328] Loaded safelist from types map file '/usr/lib/node_modules/typescript/lib/typesMap.json'
+[14:54:00.330] Explicitly included types: []
+[14:54:00.331] Inferred typings from file names: ["bootstrap"]
+[14:54:00.331] Inferred typings from unresolved imports: []
+[14:54:00.332] Result: {"cachedTypingPaths":["/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/ali/Projects/LARAVEL/shop/resources/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/js/node_modules","/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/node_modules"]}
+[14:54:00.332] Finished typings discovery: {"cachedTypingPaths":["/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/ali/Projects/LARAVEL/shop/resources/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/js/node_modules","/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/node_modules"]}
+[14:54:00.333] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/bower_components
+[14:54:00.334] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:54:00.337] Elapsed:: 3.075823999941349ms DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:54:00.337] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/node_modules
+[14:54:00.337] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:54:00.337] Elapsed:: 0.18306400068104267ms DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:54:00.338] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/bower_components
+[14:54:00.338] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:54:00.338] Elapsed:: 0.15560200065374374ms DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/bower_components 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:54:00.338] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/node_modules
+[14:54:00.338] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:54:00.339] Elapsed:: 0.12664799951016903ms DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/node_modules 1 undefined Project: /dev/null/inferredProject1* watcher already invoked: false
+[14:54:00.339] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[14:54:00.339] Response has been sent.
+[14:54:00.340] No new typings were requested as a result of typings discovery
+[14:54:00.340] Got install request {"projectName":"/dev/null/inferredProject1*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/grid.js","/home/ali/Projects/LARAVEL/shop/resources/js/admin.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/ali/Projects/LARAVEL/shop/resources/js","kind":"discover"}
+[14:54:00.340] Explicitly included types: []
+[14:54:00.340] Inferred typings from unresolved imports: []
+[14:54:00.340] Result: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/node_modules","/home/ali/Projects/LARAVEL/shop/resources/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/js/node_modules"]}
+[14:54:00.341] Finished typings discovery: {"cachedTypingPaths":[],"newTypingNames":[],"filesToWatch":["/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/assets/admin/js/node_modules","/home/ali/Projects/LARAVEL/shop/resources/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/js/node_modules"]}
+[14:54:00.341] Sending response:
+    {"projectName":"/dev/null/inferredProject1*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":[],"unresolvedImports":[],"kind":"action::set"}
+[14:54:00.341] Response has been sent.
+[14:54:00.341] No new typings were requested as a result of typings discovery
+[14:54:05.183] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/ali/Projects/LARAVEL/shop/resources/js/bootstrap.js","/home/ali/Projects/LARAVEL/shop/resources/js/app.js"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/ali/Projects/LARAVEL/shop/resources/js","kind":"discover"}
+[14:54:05.183] Explicitly included types: []
+[14:54:05.183] Inferred typings from file names: ["bootstrap"]
+[14:54:05.184] Inferred typings from unresolved imports: []
+[14:54:05.184] Result: {"cachedTypingPaths":["/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/ali/Projects/LARAVEL/shop/resources/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/js/node_modules"]}
+[14:54:05.184] Finished typings discovery: {"cachedTypingPaths":["/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/ali/Projects/LARAVEL/shop/resources/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/js/node_modules"]}
+[14:54:05.184] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/bower_components
+[14:54:05.184] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[14:54:05.184] Elapsed:: 0.05119599960744381ms DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/bower_components 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[14:54:05.185] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/node_modules
+[14:54:05.185] DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[14:54:05.185] Elapsed:: 0.04721899889409542ms DirectoryWatcher:: Added:: WatchInfo: /home/ali/Projects/LARAVEL/shop/resources/js/node_modules 1 undefined Project: /dev/null/inferredProject2* watcher already invoked: false
+[14:54:05.185] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[14:54:05.185] Response has been sent.
+[14:54:05.185] No new typings were requested as a result of typings discovery
+[14:54:05.461] Got install request {"projectName":"/dev/null/inferredProject2*","fileNames":["/usr/lib/node_modules/typescript/lib/lib.es5.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.d.ts","/usr/lib/node_modules/typescript/lib/lib.dom.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.webworker.importscripts.d.ts","/usr/lib/node_modules/typescript/lib/lib.scripthost.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.core.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.collection.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.generator.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.iterable.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.promise.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.proxy.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.reflect.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2015.symbol.wellknown.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.array.include.d.ts","/usr/lib/node_modules/typescript/lib/lib.es2016.full.d.ts","/home/ali/Projects/LARAVEL/shop/resources/js/bootstrap.js","/home/ali/Projects/LARAVEL/shop/resources/js/app.js","/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typeAcquisition":{"enable":true,"include":[],"exclude":[]},"unresolvedImports":[],"projectRootPath":"/home/ali/Projects/LARAVEL/shop/resources/js","kind":"discover"}
+[14:54:05.462] Explicitly included types: []
+[14:54:05.462] Inferred typings from file names: ["bootstrap"]
+[14:54:05.462] Inferred typings from unresolved imports: []
+[14:54:05.462] Result: {"cachedTypingPaths":["/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/ali/Projects/LARAVEL/shop/resources/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/js/node_modules"]}
+[14:54:05.462] Finished typings discovery: {"cachedTypingPaths":["/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"newTypingNames":[],"filesToWatch":["/home/ali/Projects/LARAVEL/shop/resources/js/bower_components","/home/ali/Projects/LARAVEL/shop/resources/js/node_modules"]}
+[14:54:05.463] Sending response:
+    {"projectName":"/dev/null/inferredProject2*","typeAcquisition":{"enable":true,"include":[],"exclude":[]},"compilerOptions":{"module":1,"target":3,"jsx":1,"allowJs":true,"allowSyntheticDefaultImports":true,"allowNonTsExtensions":true,"noEmitForJsFiles":true,"maxNodeModuleJsDepth":2},"typings":["/home/ali/.cache/typescript/4.7/node_modules/@types/bootstrap/index.d.ts"],"unresolvedImports":[],"kind":"action::set"}
+[14:54:05.463] Response has been sent.
+[14:54:05.463] No new typings were requested as a result of typings discovery

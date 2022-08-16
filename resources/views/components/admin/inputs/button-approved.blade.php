@@ -1,0 +1,1 @@
+<a href="{{ $href }}" {{ $attributes->class('btn btn-success ms-3') }}>تایید <i class="bi bi-check2"></i></a>

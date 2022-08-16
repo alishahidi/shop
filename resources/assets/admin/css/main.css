@@ -1,0 +1,172 @@
+body {
+  background-color: #ECECF2;
+}
+
+* {
+  direction: rtl;
+  text-align: right;
+  font-family: 'Vazirmatn', sans-serif;
+  word-wrap: break-word;
+}
+
+.bg-dark {
+  background-color: #3D3C42 !important;
+  color: #474b4f;
+}
+
+.bg-soft-dark {
+  background-color: #3D3C42 !important;
+  color: #eeeeeeff;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.text-success {
+  color: #86c232;
+}
+
+.icon-position-fix {
+  position: relative;
+  top: 0.2rem;
+}
+
+.icon-position-fix-md {
+  position: relative;
+  top: 0.1rem;
+}
+
+.badge-fix {
+  position: relative;
+  bottom: 10px;
+  right: 3px;
+}
+
+.scroll-hide {
+  overflow: auto;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.car-custom-color {
+  background-color: #222629be;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.gradient {
+  transition: all 0.5s;
+}
+
+.car-custom-color:hover {
+  background-color: #191919c0;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.inputfile-box {
+  position: relative;
+}
+
+.inputfile {
+  display: none;
+}
+
+.uploade-input {
+  border: 4px #fff dashed;
+  padding: 16px;
+}
+.file-box {
+  margin-top: 13px;
+  float: left;
+  direction: ltr;
+}
+
+.file-button {
+  float: left;
+}
+
+label {
+  margin-bottom: 0.5rem;
+}
+
+.dataTables_wrapper{
+  direction: rtl !important;
+  text-align: left !important;
+}
+
+.dataTables_filter input{
+  outline: none;
+  box-shadow: none;
+  margin-right: 10px !important;
+  width: 320px !important;
+  font-size: 15px !important;
+  text-align: left !important;
+  padding: 6px 13px !important;
+}
+
+.dataTables_length select{
+margin-left: 8px;
+outline: none;
+box-shadow: none;
+}
+
+.dataTable{
+margin-bottom: 35px !important;
+padding-top: 11px;
+}
+
+.dataTables_scrollBody{
+margin-bottom: 25px;
+}
+
+.dataTable th{
+font-size: 15px;
+text-align: right !important;
+}
+
+.dataTables_paginate span a{
+background: #E5E8EA !important;
+border: 1px solid #333 !important;
+border-radius: 50px !important;
+}
+
+.dataTable td button, .dataTable td a{
+  font-size: .9rem;
+  font-weight: bold;
+}
+
+.dataTable td{
+  padding-top: 13px !important;
+}
+
+.grid-table{
+  width: 100% !important;
+  margin-top: 0 !important;
+  padding-top: 0 !important;
+  margin-bottom: 0 !important;
+}
+
+table.dataTable{
+  margin-top: 0 !important;
+}
+
+.fg-toolbar{
+  padding: 10px 14px 10px 14px;
+}
+
+.dataTables_scrollHeadInner{
+  width: 100% !important;
+}
+
+.dataTables_scrollHeadInner table{
+  width: 100% !important;
+}

@@ -1,0 +1,1 @@
+<a href="{{ $href }}" class="btn btn-primary ms-3">مشاهده <i class="bi bi-eye-fill"></i></a>
