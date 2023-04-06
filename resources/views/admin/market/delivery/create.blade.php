@@ -1,4 +1,4 @@
-<x-admin.layout.admin-layout title="پنل ادمین - ساخت دسته بندی جدید">
+<x-admin.layout.admin-layout title="پنل ادمین - ساخت روش ارسال جدید">
     <x-admin.sections.breadcrumb>
         <x-admin.sections.breadcrumb-item href="{{ route('admin.home')  }}" name="خانه" />
         <x-admin.sections.breadcrumb-item href="#" name="بخش فروش" />

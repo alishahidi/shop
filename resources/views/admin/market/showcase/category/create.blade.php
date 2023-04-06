@@ -27,7 +27,7 @@
                         ],
                         ];
                         @endphp
-                        <x-admin.inputs.select :values="$values" label="دسته بندی والد" name="cat_id" placeholder="انتخاب دسته والد" />
+                        <x-admin.inputs.select-object :values="$values" key="id" value="name" label="دسته بندی والد" name="cat_id" placeholder="انتخاب دسته والد" />
                     </div>
                 </div>
                 <x-admin.inputs.submit name="ثبت" />

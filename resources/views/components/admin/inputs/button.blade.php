@@ -1,0 +1,1 @@
+<a href="{{ $href }}" {{ $attributes->class(["btn btn-$color ms-3"]) }}>{{ $name }} <i class="{{ $icon }}"></i></a>

@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Http\Controllers\Admin\Market\Discount;
+namespace App\Http\Controllers\Admin\Market\Order;
 
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class CouponController extends Controller
+class ReturnedOrderController extends Controller
 {
     /**
      * Display a listing of the resource.

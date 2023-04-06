@@ -28,6 +28,7 @@
     const configs = {
         responsive: true,
         fixedColumns: true,
+        scrollX: true
     }
     let table = new DataTable('{{ $name }}', {
         ...configs,

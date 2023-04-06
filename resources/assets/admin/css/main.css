@@ -125,7 +125,7 @@ padding-top: 11px;
 }
 
 .dataTables_scrollBody{
-margin-bottom: 25px;
+  min-height: 230px;
 }
 
 .dataTable th{
@@ -144,9 +144,9 @@ border-radius: 50px !important;
   font-weight: bold;
 }
 
-.dataTable td{
-  padding-top: 13px !important;
-}
+/* .dataTable td{ */
+/*   padding-top: 13px !important; */
+/* } */
 
 .grid-table{
   width: 100% !important;

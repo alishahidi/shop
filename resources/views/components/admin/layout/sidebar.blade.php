@@ -15,26 +15,39 @@
                 </div>
                 <div class="sidebar-dropdown">
                     <a href="{{ route('admin.market.showcase.category.index') }}" class="{{ active_class('admin/market/showcase/category*', 'sidebar-link-active') }}">دسته بندی</a>
-                    <a href="#">فرم کالا</a>
+                    <a href="{{ route('admin.market.showcase.property.index') }}" class="{{ active_class('admin/market/showcase/property*', 'sidebar-link-active') }}">فرم کالا</a>
                     <a href="{{ route('admin.market.showcase.brand.index') }}" class="{{ active_class('admin/market/showcase/brand*', 'sidebar-link-active') }}">برندها</a>
-                    <a href="#">کالاها</a>
-                    <a href="#">انبار</a>
-                    <a href="{{ route('admin.market.showcase.comment.index') }}" class="{{ active_class('admin/market/showcase/comment*', 'sidebar-link-active') }}">نظرات</a>
+                    <a href="{{ route('admin.market.showcase.product.index') }}" class="{{ active_class('admin/market/showcase/product*', 'sidebar-link-active') }}">کالاها</a>
+                    <a href="{{ route('admin.market.showcase.store.index') }}" class="{{ active_class('admin/market/showcase/store*', 'sidebar-link-active') }}">انبار</a>
+                    <a href=" {{ route('admin.market.showcase.comment.index') }}" class="{{ active_class('admin/market/showcase/comment*', 'sidebar-link-active') }}">نظرات</a>
                 </div>
             </div>
-            <div class=" sidebar-group-link">
+            <div class="sidebar-group-link {{ active_class('admin/market/payment*', 'sidebar-group-link-active') }}">
+                <div class="sidebar-dropdown-toggle">
+                    <i class="bi bi-credit-card icon-position-fix-md ms-2 sidebar-icon"></i>
+                    <span>پرداخت ها</span>
+                    <i class="bi bi-chevron-left icon-position-fix-md angle angle-drop-down"></i>
+                </div>
+                <div class="sidebar-dropdown">
+                    <a href="{{ route('admin.market.payment.all') }}" class="{{ active_class('admin/market/payment/all*', 'sidebar-link-active') }}">تمام پرداخت ها</a>
+                    <a href="{{ route('admin.market.payment.online.index') }}" class="{{ active_class('admin/market/payment/online*', 'sidebar-link-active') }}">پرداخت های آنلاین</a>
+                    <a href="{{ route('admin.market.payment.offline.index') }}" class="{{ active_class('admin/market/payment/offline*', 'sidebar-link-active') }}">پرداخت های آفلاین</a>
+                    <a href="{{ route('admin.market.payment.attendance.index') }}" class="{{ active_class('admin/market/payment/attendance*', 'sidebar-link-active') }}">پرداخت در محل</a>
+                </div>
+            </div>
+            <div class="sidebar-group-link {{ active_class('admin/market/order*', 'sidebar-group-link-active') }}">
                 <div class="sidebar-dropdown-toggle">
                     <i class="bi bi-bag icon-position-fix-md ms-2 sidebar-icon"></i>
                     <span>سفارشات</span>
                     <i class="bi bi-chevron-left icon-position-fix-md angle angle-drop-down"></i>
                 </div>
                 <div class="sidebar-dropdown">
-                    <a href="#">جدید</a>
-                    <a href="#">درحال ارسال</a>
-                    <a href="#">پرداخت نشده</a>
-                    <a href="#">باطل شده</a>
-                    <a href="#">مرجوعی</a>
-                    <a href="#">تمام سفارشات</a>
+                    <a href="{{ route('admin.market.order.all') }}" class="{{ active_class('admin/market/order/all*', 'sidebar-link-active') }}">تمام سفارشات</a>
+                    <a href="{{ route('admin.market.order.new.index') }}" class="{{ active_class('admin/market/order/new*', 'sidebar-link-active') }}">جدید</a>
+                    <a href="{{ route('admin.market.order.sending.index') }}" class="{{ active_class('admin/market/order/sending*', 'sidebar-link-active') }}">درحال ارسال</a>
+                    <a href="{{ route('admin.market.order.unpaid.index') }}" class="{{ active_class('admin/market/order/unpaid*', 'sidebar-link-active') }}">پرداخت نشده</a>
+                    <a href="{{ route('admin.market.order.canceled.index') }}" class="{{ active_class('admin/market/order/canceled*', 'sidebar-link-active') }}">باطل شده</a>
+                    <a href="{{ route('admin.market.order.returned.index') }}" class="{{ active_class('admin/market/order/returned*', 'sidebar-link-active') }}">مرجوعی</a>
                 </div>
             </div>
             <div class="sidebar-group-link {{ active_class('admin/market/discount*', 'sidebar-group-link-active') }}">
@@ -45,8 +58,8 @@
                 </div>
                 <div class="sidebar-dropdown">
                     <a href="{{ route('admin.market.discount.coupon.index') }}" class="{{ active_class('admin/market/discount/coupon*', 'sidebar-link-active') }}">کپن تخفیف</a>
-                    <a href="{{ route('admin.market.discount.common.index') }}" class="{{ active_class('admin/market/showcase/common*', 'sidebar-link-active') }}">تخفیف عمومی</a>
-                    <a href="{{ route('admin.market.discount.special.index') }}" class="{{ active_class('admin/market/showcase/special*', 'sidebar-link-active') }}">فروش شگفت انگیز</a>
+                    <a href="{{ route('admin.market.discount.common.index') }}" class="{{ active_class('admin/market/discount/common*', 'sidebar-link-active') }}">تخفیف عمومی</a>
+                    <a href="{{ route('admin.market.discount.special.index') }}" class="{{ active_class('admin/market/discount/special*', 'sidebar-link-active') }}">فروش شگفت انگیز</a>
                 </div>
             </div>
             <a href="{{ route('admin.market.delivery.index') }}" class="sidebar-link {{ active_class('admin/market/delivery*', 'sidebar-link-active') }}">
@@ -55,7 +68,7 @@
             </a>
             <div class="sidebar-part-title fw-bold">بخش محتوی</div>
             <hr />
-            <a href="#" class="sidebar-link">
+            <a href="{{ route('admin.content.category.index') }}" class="sidebar-link {{ active_class('admin/content/category*', 'sidebar-link-active') }}">
                 <i class="bi bi-journal-bookmark icon-position-fix-md ms-2 sidebar-icon"></i>
                 <span>دسته بندی</span>
             </a>
@@ -63,7 +76,7 @@
                 <i class="bi bi-book icon-position-fix-md ms-2 sidebar-icon"></i>
                 <span>پست ها</span>
             </a>
-            <a href="#" class="sidebar-link">
+            <a href="{{ route('admin.content.comment.index') }}" class="sidebar-link {{ active_class('admin/content/comment*', 'sidebar-link-active') }}">>
                 <i class="bi bi-chat-left-text icon-position-fix-md ms-2 sidebar-icon"></i>
                 <span>نظرات</span>
             </a>

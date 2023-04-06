@@ -5,7 +5,7 @@ namespace App\Http\Controllers\Admin\Market\Discount;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 
-class CommonController extends Controller
+class SpecialDiscountController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,7 +14,7 @@ class CommonController extends Controller
      */
     public function index()
     {
-        //
+        return view('admin.market.discount.special.index');
     }
 
     /**
@@ -24,7 +24,7 @@ class CommonController extends Controller
      */
     public function create()
     {
-        //
+        return view('admin.market.discount.special.create');
     }
 
     /**
